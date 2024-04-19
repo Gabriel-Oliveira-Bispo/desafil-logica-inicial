@@ -4,9 +4,8 @@ const heroi =  "Izuco Midoria "
 let XP = 1
 let nivel = " "
 
-//laços de repetições
+//laços de repetições && Operadores && estrutura de decisões
 for (let XP = 1; XP < 10002; XP+=100){
-  //Operadores && estrutura de decisões
   if( XP > 0 && XP < 1000){
     nivel = "Ferro"
 }else if( XP >= 1000 && XP < 2000){
