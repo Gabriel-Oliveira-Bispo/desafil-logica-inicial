@@ -1,11 +1,11 @@
-// desafio da dio
+// desafio da dio, concluido tendo todos os requisitos.
 //variaveis && constantes
 const heroi =  "Izuco Midoria "
 let XP = 1
 let nivel = " "
-
+let pontosGanhosPorVitoria = 100
 //laços de repetições && Operadores && estrutura de decisões
-for (let XP = 1; XP < 10002; XP+=100){
+for (let XP = 1; XP < 15000; XP += partidasGanhadas){
   if( XP > 0 && XP < 1000){
     nivel = "Ferro"
 }else if( XP >= 1000 && XP < 2000){
@@ -20,8 +20,8 @@ for (let XP = 1; XP < 10002; XP+=100){
     nivel = "Ascendente"
 }else if( XP >= 9000 && XP < 10000){
     nivel = "Imortal"
-}else{
-    console.log("Inicie uma partida para começar sua jornada")
+}else if( XP > 10000){
+    nivel = "Radiante"
 }
 console.log("O Herói de nome " + heroi + "está no nivel de " + nivel)
 }
