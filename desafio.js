@@ -1,1 +1,3 @@
-console.log(" ola mundo ")
+let brasil = "Brasil acima de todos"
+
+console.log(" ola mundo, " + brasil)
