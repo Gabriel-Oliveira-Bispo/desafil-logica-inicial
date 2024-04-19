@@ -5,7 +5,7 @@ let XP = 1
 let nivel = " "
 let pontosGanhosPorVitoria = 100
 //laços de repetições && Operadores && estrutura de decisões
-for (let XP = 1; XP < 15000; XP += partidasGanhadas){
+for (let XP = 1; XP < 15000; XP += pontosGanhosPorVitoria){
   if( XP > 0 && XP < 1000){
     nivel = "Ferro"
 }else if( XP >= 1000 && XP < 2000){
