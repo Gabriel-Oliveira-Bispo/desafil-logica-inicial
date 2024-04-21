@@ -1,26 +1,26 @@
-const heroi =  "Izuco Midoria "
-let vitoria = 1
-let nivel = " "
+const hero =  "Izuco Midoria "
+let victory = 1
+let level = " "
 
-function calcularNivel(vitoria ){
+function calculateLevel(victory ){
     if(vitoria < 10){
-        nivel = "Ferro"
-    }else if(vitoria >= 10 && vitoria < 20){
-        nivel = "Bronze"
-    }else if(vitoria >= 20 && vitoria < 50){
-        nivel = "Prata"
-    }else if(vitoria >= 50 && vitoria < 80){
-        nivel = "Ouro"
-    }else if(vitoria >= 80 && vitoria < 90){
-        nivel = "Diamante"
-    }else if(vitoria >= 90 && vitoria < 100){
-        nivel = "Inmortal"
-    }else if(vitoria >=100 ){
-        nivel = "Imortal"
+        level = "Ferro"
+    }else if(victory >= 10 && victory < 20){
+        level = "Bronze"
+    }else if(victory >= 20 && victory < 50){
+        level = "Prata"
+    }else if(victory >= 50 && victory < 80){
+        level = "Ouro"
+    }else if(victory >= 80 && victory < 90){
+        level = "Diamante"
+    }else if(victory >= 90 && victory < 100){
+        level = "Inmortal"
+    }else if(victory >=100 ){
+        level = "Imortal"
     }
-    return nivel
+    return level
 }
-for(let vitoria = 1; vitoria < 102; vitoria ++ ){
-    nivel = calcularNivel(vitoria)
-console.log(`O ${heroi} tem de saldo de ${vitoria} vitorias está no nível de ${nivel} `)
+for(let victory = 1; victory < 102; victory ++ ){
+    nivel = calculateLevel(victory)
+console.log(`O ${hero} tem de saldo de ${victory} vitorias está no nível de ${level} `)
 }
