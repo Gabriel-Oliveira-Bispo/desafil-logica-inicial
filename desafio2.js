@@ -3,7 +3,7 @@ let victory = 1
 let level = " "
 
 function calculateLevel(victory ){
-    if(vitoria < 10){
+    if(victory < 10){
         level = "Ferro"
     }else if(victory >= 10 && victory < 20){
         level = "Bronze"
